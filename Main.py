@@ -1,15 +1,14 @@
-# Lista kahdesti tehtävä
+# Parilliset
 
-luku = int(input("Anna luku: "))
+random_list = []
+def parilliset(lista):
+    for number in lista:
+        if number % 2 == 0:
+            random_list.append(number)
+    print(f"Alkuperäinen: {lista}")
+    print(f"Parilliset: {random_list}")
 
-while luku != 0:
-    original_list.append(luku)
-    print(f"Lista: {original_list}")
-    sorted_list = sorted(original_list)
-    print(f"Järjestettynä: {sorted_list}")
-    luku = int(input("Anna luku: "))
-print("Moi!")
-
+parilliset([1, 2, 3, 4, 5, 6])
 
 
 
