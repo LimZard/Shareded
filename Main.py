@@ -19,6 +19,16 @@ def uniikki(lista):
 
 uniikki([1, 2, 3, 4, 4, 2])
 
+# Palindromi
+palindromi = input("Anna palindromi: ")
+
+
+while palindromi != palindromi[::-1]:
+    print("ei ollut palindromi")
+    palindromi = input("Anna palindromi: ")
+
+print(f"{palindromi} on palindromi")
+
 
 
 
