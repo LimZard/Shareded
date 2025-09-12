@@ -30,6 +30,14 @@ while palindromi != palindromi[::-1]:
 print(f"{palindromi} on palindromi")
 
 
+# positiiviset summat
+def positiivisten_summa(lista):
+    positiiviset = [i for i in lista if i > 0]
+    print(sum(positiiviset))
+
+positiivisten_summa([1, -2, 3, -4, 5])
+
+
 
 
 
