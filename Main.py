@@ -38,6 +38,12 @@ def positiivisten_summa(lista):
 positiivisten_summa([1, -2, 3, -4, 5])
 
 
+# summalista
+def summa(list1, list2):
+    sum = [x + y for x, y in zip(list1, list2)]
+    return sum
+
+
 
 
 
