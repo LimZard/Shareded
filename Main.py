@@ -43,6 +43,13 @@ def summa(list1, list2):
     sum = [x + y for x, y in zip(list1, list2)]
     return sum
 
+# kaikki väärinpäin 
+def kaikki_vaarinpain(lista):
+    lista.reverse()
+    reverse = [i[::-1] for i in lista]
+    print(reverse)
+
+kaikki_vaarinpain(["moi", "moiioi", "hsjad"])
 
 
 
