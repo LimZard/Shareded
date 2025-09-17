@@ -29,6 +29,13 @@ while palindromi != palindromi[::-1]:
 
 print(f"{palindromi} on palindromi")
 
+#samat
+def samat(string, index1, index2):
+    string = str(string)
+    sama = string[index1] == string[index2]
+    return sama
+print(samat("koodari", 1, 2))
+
 
 # positiiviset summat
 def positiivisten_summa(lista):
