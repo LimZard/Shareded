@@ -59,6 +59,16 @@ def kaikki_vaarinpain(lista):
 kaikki_vaarinpain(["moi", "moiioi", "hsjad"])
 
 
+#poista isot 
+def poista_isot(lista):
+    karsittu = [i for i in lista if i.isupper() != True]
+    return karsittu
+
+print(poista_isot(["ABC", "def", "ISO", "TOINENISO", "pieni", "toinen pieni", "Osittain Iso"]))
+
+
+
+
 
 
 
