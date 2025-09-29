@@ -67,6 +67,16 @@ def poista_isot(lista):
 print(poista_isot(["ABC", "def", "ISO", "TOINENISO", "pieni", "toinen pieni", "Osittain Iso"]))
 
 
+#eniten kirjaimia
+def eniten_kirjaimia(string):
+    listed = [i for i in string]
+    return max(set(listed), key=listed.count)
+
+
+print(eniten_kirjaimia("abcbdbe"))
+
+
+
 
 
 
