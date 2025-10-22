@@ -77,6 +77,29 @@ print(eniten_kirjaimia("abcbdbe"))
 
 
 
+puhelin_lista = []
+while True:
+    komento = int(input("Komento (1 hae, 2 lisää, 3 lopeta): "))
+    if komento != 3:
+        key = input("nimi: ")
+        if komento == 2:
+            value = input("numero: ")
+            print("ok!")
+            puhelin_lista.append({key: value})
+
+
+
+
+        elif komento == 1:
+            [print(item[key]) for item in puhelin_lista if key in item]
+    else:
+        print("lopetetaan..")
+        break
+
+
+
+
+
 
 
 
